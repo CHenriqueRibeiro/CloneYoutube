@@ -1,0 +1,60 @@
+#Header{
+    margin: -7px;
+    width: 1440px;
+    height: 56px;
+    padding: 0px 24px 0px 24px;
+    border: red 1px solid;
+    display: flex;
+    position: relative;
+   
+    
+}
+.logo{
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 80px;
+    top: 18px;
+}
+
+#procurarvideo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 348px;
+    height: 40px;
+    left: 526px;
+    top: 8px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+
+}
+#botaolupa{
+    box-sizing: border-box;
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    left: 873px;
+    top: 8px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+}
+.lupa{
+    position: absolute;
+    left: 33%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    
+   
+    
+}
+.ponteiro{
+    position: absolute;
+    height: 4.35px;
+    width: 4.35px;
+    left: 16.64px;
+    top: 16.64px;
+    border-radius: 0px;
+    left: 58.5%;
+    top: 64%;
+}
