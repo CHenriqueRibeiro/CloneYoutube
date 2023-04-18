@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 #Header{
    
     width: 1440px;
@@ -111,9 +114,8 @@
     right: 413px;
     bottom: 413px;
 }
-h3{
+.textobaixovideo{
     position: absolute;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: large;
     line-height: 25px;
@@ -131,7 +133,7 @@ h3{
     left: 88px;
 
 }
-h4{
+.Visualizacaodovideo{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 650;
@@ -145,7 +147,7 @@ h4{
     left: 88px;
 
 }
-p{
+.Textodescritivodovideo{
     width: 510px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
@@ -156,6 +158,18 @@ p{
     left: 88px;
     color:  #515151;
     
+    
+}
+
+.VideosLaterais{
+    object-fit: cover;
+}
+#Lateral{
+    display: flex;
+    width: 250px;
+    height: 89px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-wrap: break-word;
     
 }
 .MenuLateral{
@@ -171,6 +185,392 @@ p{
 
 
 }
-.VideosLaterais{
-    object-fit: cover;
+.TextoUnimed{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:862px;
+    
+   
 }
+.CabecalhoUnimed{
+    width: 285px;
+    height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 21px;
+
+}
+.NomeDoCanal{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 43px;
+    bottom: 0px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanal{
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    bottom: 0;
+    top: 58px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+
+}
+.TextoScrum{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:730px;
+    
+    
+   
+}
+
+.CabecalhoScrum{
+    width: 285px;
+    height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 21px;
+    position: absolute;
+    bottom: 44px;
+
+}
+.NomeDoCanalScrum{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 1px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanalScrum{
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    bottom: 0;
+    top: 22px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+}
+
+.TextoMachineLearning{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:630px;
+    
+   
+}
+.CabecalhoMachine{
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 21px;
+
+}
+.NomeDoCanalMachine{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 43px;
+    bottom: 0px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanalMachine{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    bottom: 0;
+    top: 58px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+
+}
+
+.TextoGlobalSkills{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:520px;
+    
+   
+}.CabecalhoGlobal{
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 17px;
+
+}
+.NomeDoCanalGlobal{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 38px;
+    bottom: 0px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanalGlobal{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 165px;
+    height: 28px;
+    bottom: 0;
+    top: 55px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+
+}
+
+.TextoPhyton{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:412px;
+    
+   
+}
+.TextoUnimed2{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:862px;
+}
+
+.CabecalhoUnimed2{
+    width: 285px;
+    height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 21px;
+    position: absolute;
+    top: 532px;
+
+}
+.NomeDoCanal2{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 573px;
+    bottom: 0px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanal2{
+    position: absolute;
+    width: 180px;
+    height: 2px;
+    bottom: 0;
+    top: 588px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+
+}
+.TextoScrum2{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:730px;
+    
+    
+   
+}
+
+.CabecalhoScrum2{
+    width: 285px;
+    height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 21px;
+    position: absolute;
+    bottom: 0px;
+    top: 505px;
+
+}
+.NomeDoCanalScrum2{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 535px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanalScrum2{
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    bottom: 0;
+    top: 555px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+}
+.TextoMachineLearning2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:349px;
+    
+   
+}
+.CabecalhoMachine2{
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    height: 320px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 21px;
+    position: absolute;
+    top: 250px;
+
+}
+.NomeDoCanalMachine2{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 292px;
+    bottom: 0px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanalMachine2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    bottom: 0;
+    top: 308px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+
+}
+.TextoPhyton{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:560px;
+    
+    
+   
+}
+.CabecalhoPhyton{
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    height: 320px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 21px;
+    position: absolute;
+    top: 145px;
+
+}
+.NomeDoCanalPhyton{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 187px;
+    bottom: 0px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanalPhyton{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    bottom: 0;
+    top: 203px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+
+}
+.TextoGlobalSkills2{
+    position: absolute;
+    width: 250px;
+    height: 89px;
+    left: 1250px;
+    bottom:-10px;
+    
+   
+}.CabecalhoGlobal2{
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    height: 32px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    line-height: 17px;
+
+}
+.NomeDoCanalGlobal2{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 38px;
+    bottom: 0px;
+    color: rgba(81, 81, 81, 1);
+    
+}
+.VisualizacaoDoCanalGlobal2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 165px;
+    height: 28px;
+    bottom: 0;
+    top: 55px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    word-wrap: break-word;
+
+}
+
